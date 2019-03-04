@@ -132,7 +132,7 @@ a:hover{
 	float: left;
 }
 
-#nav .ul1 li a{
+#nav .ul1 li, #nav .ul1 li a{
 	line-height: 40px;
 	transition: 0.3s ease-out;
 	transition: 0.3s ease-in;
