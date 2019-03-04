@@ -30,7 +30,7 @@ a:hover{
 
 #head .ul1 li{
 	float: left;
-	margin: 10px 10px 0px 30px;
+	padding: 10px 10px 0px 30px;
 }
 
 #head .ul1 li img{
@@ -62,7 +62,7 @@ a:hover{
 
 #head .ul2 li{
 	float: right;
-	margin: 10px 80px 0px 30px;
+	padding: 10px 80px 0px 30px;
 }
 
 #head .ul2 li span{
@@ -157,42 +157,37 @@ a:hover{
 	min-width: 1000px;
 }
 
-.ct2{
-	width: 1519px;
-	height: 400px;
+.ct2, .ct4{
+	width: 100%;
+	height: 320px;
+	clear: both;
 }
 
 .ct2 ul,.ct4 ul{
 	list-style: none;
-	margin: 60px 0px 30px 30px;
 }
 
 .ct2 ul li,.ct4 ul li{
 	float: left;
-	width: 320px;
+	width: 25%;
 	height: 280px;
-	margin-top: 50px;
-	margin-left: 12px;
-	margin-right: 12px;
+	margin: 12px auto;
 }
 
 .ct2 ul li a,.ct4 ul li a{
 	display: block;
-	width: 320px;
-	height: 280px;
+	width: 90%;
 	text-decoration: none;
 	transition: 0.3s;
 }
 
 .ct2 ul li a img,.ct4 ul li a img{
 	vertical-align: middle;
-	width: 310px;
 	height: 180px;
 }
 
 .ct2 ul li a p,.ct4 ul li a p{
-	margin: 20px auto 15px;
-	font-size: 1.6em;
+	font-size: 1.3em;
 	text-align: center;
 	color: rgba(0,0,0,0.8);
 	font-family: wf_segoe-ui_semilight,wf_segoe-ui_light,wf_segoe-ui_normal,'Segoe UI Semilight','Segoe UI Light','Segoe UI',Arial,sans-serif !important;
@@ -200,7 +195,7 @@ a:hover{
 
 .ct2 ul li a span,.ct4 ul li a span{
 	display: block;
-	font-size: 1.25em;
+	font-size: 1em;
 	text-align: center;
 	color: rgba(0,0,0,0.8);
 	font-family: wf_segoe-ui_semilight,wf_segoe-ui_light,wf_segoe-ui_normal,'Segoe UI Semilight','Segoe UI Light','Segoe UI',Arial,sans-serif !important;
@@ -213,9 +208,9 @@ a:hover{
 }
 
 .ct3{
-	width: 1519px;
+	width: 100%;
 	height: 400px;
-	background: url(../img/ct3bg.jpg);
+	background: url(../img/ctbg.jpg);
 	background-size: 100%;
 }
 
@@ -229,84 +224,18 @@ a:hover{
 .ct3 span{
 	display: block;
 	font-size: 1.1em;
-	margin: 0px;
 	padding: 0px 0px 25px 100px;
 	color: rgba(0,0,0,0.8);
 }
 
 .ct3 a{
 	display: block;
-	margin: 0px;
 	padding-left: 100px;
 	color: rgba(0,0,0,0.8)
 }
 
 .ct3 a:hover{
 	text-decoration: underline
-}
-
-.ct4{
-	width: 1519px;
-	height: 400px;
-	margin: 0px;
-	margin-top: 50px;
-}
-
-.ct4 h2{
-	text-align: center;
-	font-size: 1.625em;
-	font-weight: 300;
-	color: rgba(0,0,0,0.8);
-	font-family: wf_segoe-ui_semilight,wf_segoe-ui_light,wf_segoe-ui_normal,'Segoe UI Semilight','Segoe UI Light','Segoe UI',Arial,sans-serif !important;
-}
-
-.ct4 ul{
-	list-style: none;
-	margin: 0px;
-	margin: -30px 0px 30px 30px;
-}
-
-.ct4 ul li{
-	float: left;
-	width: 320px;
-	height: 280px;
-	margin-top: 50px;
-	margin-left: 12px;
-	margin-right: 12px;
-}
-
-.ct4 ul li a{
-	display: block;
-	width: 320px;
-	height: 280px;
-	text-decoration: none;
-	transition: 0.3s;
-}
-
-.ct4 ul li a img{
-	vertical-align: middle;
-	width: 310px;
-	height: 180px;
-}
-
-.ct4 ul li a p{
-	margin: 20px auto 15px;
-	font-size: 1.6em;
-	text-align: center;
-	color: rgba(0,0,0,0.8);
-	font-family: wf_segoe-ui_semilight,wf_segoe-ui_light,wf_segoe-ui_normal,'Segoe UI Semilight','Segoe UI Light','Segoe UI',Arial,sans-serif !important;
-}
-
-.ct4 ul li a span{
-	display: block;
-	font-size: 1.25em;
-	text-align: center;
-	color: rgba(0,0,0,0.8);
-	font-family: wf_segoe-ui_semilight,wf_segoe-ui_light,wf_segoe-ui_normal,'Segoe UI Semilight','Segoe UI Light','Segoe UI',Arial,sans-serif !important;
-}
-
-.ct4 ul li a:hover{
-	opacity: 0.8;
 }
 
 .foot{
