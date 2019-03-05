@@ -5,6 +5,7 @@ body{
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
+	min-width: 1400px;
 }
 
 a{
@@ -19,7 +20,6 @@ a:hover{
 #head{
 	width: 100%;
 	height: 50px;
-	min-width: 1000px;
 }
 
 #head .ul1{
@@ -29,7 +29,7 @@ a:hover{
 }
 
 #head .ul1 li img{
-	width: 120px;
+	width: 50px;
 	height: 50px;
 }
 #head .ul1 li{
@@ -151,7 +151,6 @@ a:hover{
 .ct1{
 	width: 100%;
 	background: #0078D7;
-	min-width: 1000px;
 }
 
 .ct2, .ct4{
@@ -208,6 +207,7 @@ a:hover{
 	width: 100%;
 	height: 400px;
 	background: url(../img/ctbg.jpg);
+	background-repeat: no-repeat;
 	background-size: 100%;
 }
 
@@ -314,3 +314,4 @@ a:hover{
 .navContent{
 	width: 100%;
 	height: 400px;
+}
