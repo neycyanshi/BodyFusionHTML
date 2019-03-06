@@ -1,4 +1,4 @@
-body{
+﻿body{
 	font-size: 16px;
 	line-height: 1.5em;
 	font-family: '微软雅黑',Verdana,Arial,sans-serif;
@@ -199,7 +199,6 @@ a:hover{
 
 .ct2 ul li a:hover,.ct4 ul li a:hover{
 	opacity: 0.8;
-	transform: scale(1.2,1.2);
 	transition: transform 0.7s;
 }
 
