@@ -33,99 +33,15 @@
 <body>
 	<!-- main box div -->
 	<div id="main">
-	<!-- head box div -->
-		<div id="head">
-			<ul class="ul1">
-				<li>
-					<a href="index.html"><img src="img/icon.jpg" alt=""></a>
-				</li>
-
-				<li>
-					<a href="#"><span>BodyFusion商城</span></a>
-				</li>
-			</ul>
-			<ul class="ul2">
-				<li>
-					<form action="">
-						<input type="text" placeholder="在bodyfusion.com中搜索" name="search">
-						<button type="submit"><img id="changeimg" onmouseover="imgchange()" src="img/search.png" alt=""></button>
-					</form>
-				</li>
-
-				<li>
-					<a href="#"><span>登录</span></a>
-				</li>
-
-			</ul>
-		</div>
-		<div id="lh"></div>
-		<!-- nav box div -->
-		<div id="nav">
-			<ul class="ul1">
-				<li>
-					<a href="ios.html">iOS</a>
-				</li>
-				<li>
-					<a href="pc.html">PC</a>
-				</li>
-				<li>
-					<a href="gallery.html">Gallery</a>
-				</li>
-				<li>
-					<a href="about.html">About</a>
-				</li>
-			</ul>
-		</div>
-
-		<!-- ios content -->
+		<div class="header"></div>
 		<div class="navContent"></div>	
-
-        <!-- foot div -->
-		<div class="foot">
-			<ul>
-				<li>学习</li>
-				<li><a href="#">BodyFusion</a></li>
-			</ul>
-			<ul>
-				<li>设备 </li>
-				<li><a href="#">Windows</a></li>
-				<li><a href="#">MAC</a></li>
-				<li><a href="#">Linux</a></li>
-			</ul>
-			<ul>
-				<li>BodyFusion商城 </li>
-				<li><a href="#">我的订单</a></li>
-				<li><a href="#">与我们联系</a></li>
-			</ul>
-			<ul>
-				<li>下载</li>
-				<li><a href="#">BodyFusion下载中心</a></li>
-			</ul>
-			<ul>
-				<li>价值观</li>
-				<li><a href="#">BodyFusion 隐私</a></li>
-			</ul>
-			<ul>
-				<li>公司</li>
-				<li><a href="#">招贤纳士</a></li>
-				<li><a href="#">关于我们</a></li>
-				<li><a href="#">公司新闻</a></li>
-			</ul>
-		</div>
-		<!-- bottom -->
-		<div class="bottom">
-			<div class="btdiv1">
-			<img src="img/btlogo.png" alt=""><a href="#">中文(中华人民共和国)</a>
-			</div>
-			<div class="btdiv2">
-			<a href="#">与我们联系</a>
-			<a href="">隐私权声明</a>
-			<a href="">使用条款</a>
-			<a href="">商标</a>
-			<a href="">关于我们的广告</a>
-			<span>&copy; 2019 BodyFusion, Inc. All rights reserved.</span>
-			</div>
-		</div>
+		<div class="footer"></div>
 	</div>
 </body>
+<script>
+	$(document).ready(function(){
+   	$(".header").load("head.html");
+   	$(".footer").load("foot.html");
+	});
+</script>
 </html>
